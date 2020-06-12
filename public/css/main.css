@@ -89,7 +89,8 @@ img.displayed{
 }
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif; 
+  font-family: "verdana", Helvetica, Arial, sans-serif; 
+  font-size=13px;
 }
 @media (min-width: 48em) {
   html {

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  !-->
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,11 +48,11 @@
         </div>
 
         <nav class="sidebar-nav">
-            <a class="sidebar-nav-item active" href="/">Home</a>
+            <a class="sidebar-nav-item active" href="#sec:summary">Summary</a>
             <a class="sidebar-nav-item" href="/contact/">Contact</a>
             <a class="sidebar-nav-item" href="/phdThesis/">PhD Thesis</a>
-            <a class="sidebar-nav-item" href="/publications/">Publications</a>
-            <a class="sidebar-nav-item" href="/talks/">Talks</a>
+            <a class="sidebar-nav-item" href="#sec:publications">Publications</a>
+            <a class="sidebar-nav-item" href="#patentsSection">Patents</a>
 
         </nav>
         <br><br><br>
@@ -61,22 +61,73 @@
 </div>
 
 
-<div class="content container">
-
-    I have been doing research on several aspects of static/program analysis for validation and verification of safety-critical systems through static analysis and automatic test data generation. More particularly, I am aiming at improving precision and performance of static analysis tools while maintaining their scalability on very large software systems, identification and implementation of verification techniques to detect of new types of defects, improving and supporting manual inspection of the results of static analysis tools, etc. 
-
-My current research includes (a) improving performance when the model checking is used to eliminate false positives from static analysis warnings, and (b) supporting users in their manual reviewing of static analysis warnings through review assistance framework.
-
-My earlier research includes variability management in Software Product Lines Engineering, effectiveness of various coverage criteria (MCDC, MBVC), designing new verification properties, etc.
-
-    
-<h3>Publications (<a href="https://dblp.uni-trier.de/pers/m/Muske:Tukaram.html0">DBLP</a>, 
+<a id="sec:profiles"> <h4>Profiles: <a href="https://dblp.uni-trier.de/pers/m/Muske:Tukaram.html0">DBLP</a>, 
     <a href="https://scholar.google.co.in/citations?user=irO12GYAAAAJ&hl=en">Scholar</a>,
     <a href="https://in.linkedin.com/in/tukaram-muske-4a875240">LinkedIn</a>,
-    <a href="https://research.tue.nl/en/persons/tukaram-muske">TU/e</a>): </h3>
-    
+	<a href="https://research.tue.nl/en/persons/tukaram-muske">TU/e</a>.
+</h4> </a>
+
+<hr>
+<div class="content container">
+
+<a id="sec:summary"> 	</a>
+<p> 
+I am working as a scientist in <a href="https://www.tcs.com/designing-complex-intelligent-systems">Foundations of Computing </a> group at TRDDC, one of the research-and-innovation labs of <a href="https://www.tcs.com/">Tata Consultancy Services Ltd</a>, located in Pune, India. 
+My research interests span across several aspects of static analysis/program verification and software engineering. 
+I have been exploring <i> postprocessing of alarms </i> as a mean to address the problem of static analysis alarms.
+More particularly, I aim to improve precision and performance of static analysis tools while maintaining their scalability on very large software systems, and to improve and support manual inspection of the results of static analysis tools. 
+Currently, I am also exploring ways to benefit from the advances in machine learning to improve static/program analysis and postprocessing of alarms.
+In a more or less distant past I also used to work on identification and implementation of verification techniques to detect of new types of defects, automated test data generation, and structuring and composing of software development artifacts in software product line engineering. 
+</p>
+
+
+<p> 
+Since 2016 I have also been pursuing my PhD degree under supervision of <a href="https://www.win.tue.nl/~aserebre/">Dr. Alexander Serebrenik </a>  and <a href="https://www.win.tue.nl/~mvdbrand/"> Prof. Dr. M.G.J. van den Brand</a>, both from <A HREF="https://www.tue.nl/en/"> Eindhoven University of Technology</A> (TU/e), The Netherlands.
+Addressing same problem of alarms also has been the topic my PhD: <i> Postprocessing of Static Analysis Alarms </i>. 
+More details about my PhD and thesis can be found here.
+During this period, I got opportunity to visit TU/e five times, each visit being for the duration of around a month, and have Dr. Alexander Serebrenik's sabbatical at TRDDC twice, each sabbatical visit spanning over a couple of weeks. 
+</p>
+
+
+<p> 
+At TRDDC, prior to working as scientist/researcher, I worked on designing a technique for structuring and composing of software development artifacts in software product line engineering (2007 to 2009), and then on developing tools to automatically generate
+test data for different coverage criteria (2009-2010).
+Between 2011 and 2013, I was involved in design and development of a commercial static analysis tool tool, TCS Embedded Code Analyzer (TCS ECA). 
+I contributed by designing and implementation of techniques for detecting defects of unique types, and techniques for improving precision of underlying analyses such as value and pointer analysis. 
+Based on the research work at TRDDC, I have (co)-authored <a href="#sec:publications">15 peer-reviewed conference papers</a>, and filed <a href="#sec:patents">12 unique patents</a> of which eight are granted in one or more jurisdictions and the other four are currently under examination.
+</p>
+
+<p> 
+I obtained my <i> Bachelor of Engineering </i> degree  in Computer Science in 2006 at Maharashtra Institute of Technology, affiliated to University of Pune, India. 
+After obtaining the Bachelor's degree in June 2006 and joining TRDDC, TCS (2007), I worked with IBM India as a developer.
+</p>
+
+<!-- During my Bachelor’s degree, I had an internship of nine months (June 2005-March 2006) at TRDDC, Pune, India, supervised by R. Venkatesh, who happens to be my supervisor at TRDDC since 2007.</p> -->
+
+<hr>
+<a id="sec:Summary"> <h3>Service to Conference Organizing/Journals: </h3> </a>
+
+<p> <b>PC Member:</b> <A HREF="https://www.ieee-scam.org/2019/">SCAM 2019</A>, <A HREF="http://2019.dsn.org/">DSN 2019 (Industry track)</A>, <A HREF="https://dsn2017.github.io/">DSN 2017 (Industry track)</A>, <A HREF="http://saner.polymtl.ca/doku.php?id=en:start">SANER 2015</A>. </p>
+<p> <b>Sub-reviewer:</b>  <A HREF="https://isoft.acm.org/isec2019/">ISEC 2019</A>, <A HREF="https://isoft.acm.org/isec2018/">ISEC 2018</A>, <A HREF="http://staf2016.conf.tuwien.ac.at/sefm/">SEFM 2016</A>. </p> 
+<p> <b>Journals:</b> <A HREF="https://www.springer.com/journal/10664">EMSE</A> (Reviewer in 2019). </p> 
+<p> <b>Others:</b> <A HREF="https://www.iarcs.org.in/atva2017/"> ATVA 2017</A>    (Finance Chair), </b> <A HREF="http://2015.issre.net/">ISSRE 2015</A> (Industry panelist). </p>
+
+
+<hr>
+<a id="sec:collaborators"> <h3>Collaborators and Interns: </h3> </a>
+<p> <b>Collaborators:
+</b> <A HREF="https://www.shbonita.me/">Dr. Bonita Sharif</A> (<A HREF="https://www.unl.edu/">University of Nebraska - Lincoln</A>): 2018 onwards; 
+<A HREF="https://www.win.tue.nl/~aserebre/">Dr. Alexander Serebrenik</A> (<A HREF="https://www.tue.nl/en/">Eindhoven University of Technology</A>): 2016 onwards, 
+<A HREF="https://www.cse.iitb.ac.in/~uday/">Prof. Uday Khedker</A> (<A HREF="http://www.iitb.ac.in/">IIT Bombay</A>): 2014-2016, 
+<A HREF="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:986">Dr. Paddy Krishnan</A> (<A HREF="http://bonduniversity.us/">Bond University</A>): 2010.
+</p>
+<p> <b>Interns:</b> I've also had the privilege of supervising several interns at TRDDC. The recent ones are - <br> 
+<i> 2020</i>: Abhinav Kumar (<A HREF="https://www.iiitp.ac.in/home">IIIT Pune</A>), Prajkta Kodavade (<A HREF="http://www.walchandsangli.ac.in/">Walchand College of Engineering, Sangli</A>), Nathan van Beusekom (<A HREF="https://www.tue.nl/en/">Eindhoven University of Technology</A>),<br> 
+<i> 2019</i>: Anushri Laddha (<A HREF="https://iiitn.ac.in/">IIIT Nagpur</A>), Peeyush Kushwaha (<A HREF="https://www.iiitd.ac.in/">IIIT Delhi</A>), Kunal Verma (<A HREF="https://www.iitgn.ac.in/">IIT Gandhinagar</A>). </p> 
+
+<hr> <a id="sec:publications">    <h3>Publications: </h3>  </a> 
 <ol>
-	<LI>Tukaram Muske, <A HREF="https://www.linkedin.com/in/rohithtalluri">Rohith Talluri</A>, and <A HREF="https://www.win.tue.nl/~aserebre/">Alexander Serebrenik</A>. <B>Reducing Static Analysis Alarms based on Non-impacting Control Dependencies</B>, <i>Asian Symposium on Programming Languages and Systems</i> (<B>APLAS 2019</B>), 
+	<LI>Tukaram Muske, <A HREF="https://www.linkedin.com/in/rohithtalluri">Rohith Talluri</A>, and <A HREF="https://www.win.tue.nl/~aserebre/">Alexander Serebrenik</A>. <B>Reducing Static Analysis Alarms based on Non-impacting Control Dependencies.</B> <i>Asian Symposium on Programming Languages and Systems</i> (<B>APLAS 2019</B>), 
 	 pp. 115-135. Springer, 2019.
 	 <br>
 	 <A HREF="https://link.springer.com/chapter/10.1007/978-3-030-34175-6_7">DOI</A> 
@@ -84,7 +135,7 @@ My earlier research includes variability management in Software Product Lines En
 	&middot; <span class="refs-link"><a href="files/APLAS2019slides.pdf">Slides</a></span> </LI>
      <hr> 
 
-	 <LI>Tukaram Muske, <A HREF="https://www.linkedin.com/in/rohithtalluri">Rohith Talluri</A>, and <A HREF="https://www.win.tue.nl/~aserebre/">Alexander Serebrenik</A>. <B>Repositioning of Static Analysis Alarms</B>, <i>27th ACM SIGSOFT International Symposium on Software Testing and Analysis</i> (<b>ISSTA 2018</b>), pp. 187-197. ACM, 2018.  
+	 <LI>Tukaram Muske, <A HREF="https://www.linkedin.com/in/rohithtalluri">Rohith Talluri</A>, and <A HREF="https://www.win.tue.nl/~aserebre/">Alexander Serebrenik</A>. <B>Repositioning of Static Analysis Alarms.</B> <i>27th ACM SIGSOFT International Symposium on Software Testing and Analysis</i> (<b>ISSTA 2018</b>), pp. 187-197. ACM, 2018.  
    <br>
  <span class="refs-link"><a href="https://dl.acm.org/doi/10.1145/3213846.3213850">DOI</a></span> 
    &middot; <A HREF="https://www.win.tue.nl/~aserebre/ISSTA2018noproofs.pdf">PDF</A>
@@ -92,77 +143,107 @@ My earlier research includes variability management in Software Product Lines En
    &middot; <span class="refs-link"><a href="files/ISSTA2018Slides.pdf">Slides</a></span> 
     </LI> <hr>
 
-   <LI>Tukaram Muske and <A HREF="https://www.win.tue.nl/~aserebre/">Alexander Serebrenik</A>. <B>Survey of Approaches for Handling Static Analysis Alarms</B>, <i>16th IEEE International Working Conference on Source Code Analysis and Manipulation</i> (<b>SCAM 2016</b>), pp. 157-166. IEEE, 2016. <br>
+   <LI>Tukaram Muske and <A HREF="https://www.win.tue.nl/~aserebre/">Alexander Serebrenik</A>. <B>Survey of Approaches for Handling Static Analysis Alarms.</B> <i>16th IEEE International Working Conference on Source Code Analysis and Manipulation</i> (<b>SCAM 2016</b>), pp. 157-166. IEEE, 2016. <br>
     <span class="refs-link"><a href="https://ieeexplore.ieee.org/document/7781809">DOI</a></span> 
    &middot; <A HREF="https://www.win.tue.nl/~aserebre/SCAM2016.pdf">PDF</A>
    &middot; <span class="refs-link"><a href="files/SCAM2016slides.pdf">Slides</a></span> 
     </LI> <hr>
 
-    <LI>Tukaram Muske and <A HREF="https://www.cse.iitb.ac.in/~uday/">Uday P. Khedker</A>. <B>Cause Points Analysis for Effective Handling of Alarms</B>, <i>27th IEEE International Symposium on Software Reliability Engineering</i> (<B>ISSRE 2016</B>), pp. 173-184. IEEE, 2016. <br> <span class="refs-link"><a href="https://ieeexplore.ieee.org/document/7774518">DOI</a></span> 
+    <LI>Tukaram Muske and <A HREF="https://www.cse.iitb.ac.in/~uday/">Uday P. Khedker</A>. <B>Cause Points Analysis for Effective Handling of Alarms.</B> <i>27th IEEE International Symposium on Software Reliability Engineering</i> (<B>ISSRE 2016</B>), pp. 173-184. IEEE, 2016. <br> <span class="refs-link"><a href="https://ieeexplore.ieee.org/document/7774518">DOI</a></span> 
    &middot; <A HREF="files/ISSRE2016.pdf">PDF</A>
    &middot; <span class="refs-link"><a href="files/ISSRE2016slides.pdf">Slides</a></span> 
     </LI> <hr>
 
-    <LI>Tukaram Muske and <A HREF="https://www.cse.iitb.ac.in/~uday/">Uday P. Khedker</A>. <B>Efficient Elimination of False Positives using Static Analysis.</B>, <i>26th IEEE International Symposium on Software Reliability Engineering</i> (<B>ISSRE 2015</B>), pp. 270-280. IEEE, 2015. <br>
+    <LI>Tukaram Muske and <A HREF="https://www.cse.iitb.ac.in/~uday/">Uday P. Khedker</A>. <B>Efficient Elimination of False Positives using Static Analysis.</B> <i>26th IEEE International Symposium on Software Reliability Engineering</i> (<B>ISSRE 2015</B>), pp. 270-280. IEEE, 2015. <br>
    &middot; <A HREF="files/ISSRE2015.pdf">PDF</A>
    &middot; <span class="refs-link"><a href="files/ISSRE2015slides.pdf">Slides</a></span> 
     </LI> <hr>
 
-    <LI>Tukaram Muske and <A HREF="https://in.linkedin.com/in/prasad-bokil-32a58566">Prasad Bokil</A>. <B>On Implementational Variations in Static Analysis Tools.</B>, <i>22nd International Conference on Software Analysis, Evolution, and Reengineering</i> (<B>SANER 2015</B>), pp. 512-515. IEEE, 2015. <br>
+    <LI>Tukaram Muske and <A HREF="https://in.linkedin.com/in/prasad-bokil-32a58566">Prasad Bokil</A>. <B>On Implementational Variations in Static Analysis Tools.</B> <i>22nd International Conference on Software Analysis, Evolution, and Reengineering</i> (<B>SANER 2015</B>), pp. 512-515. IEEE, 2015. <br>
     <span class="refs-link"><a href="https://ieeexplore.ieee.org/document/7081867">DOI</a></span> 
    &middot; <A HREF="files/SANER2015.pdf">PDF</A>
 	<!-- &middot; <A HREF="files/uploadLaterMessage.html">PDF</A> -->
     </LI> <hr>
 
-    <LI>Tukaram Muske and <A HREF="https://in.linkedin.com/in/amey-zare-98620a83">Amey Zare</A>. <B>Inconsistencies-based Multi-region Protocol Verification.</B>, <i>International Conference on Advances in System Testing and Validation Lifecycle </i> (<B>VALID 2014</B>), pp. 40-45. IARIA XPS Press, 2014. <br>
+    <LI>Tukaram Muske and <A HREF="https://in.linkedin.com/in/amey-zare-98620a83">Amey Zare</A>. <B>Inconsistencies-based Multi-region Protocol Verification.</B> <i>International Conference on Advances in System Testing and Validation Lifecycle </i> (<B>VALID 2014</B>), pp. 40-45. IARIA XPS Press, 2014. <br>
     <span class="refs-link"><a href="https://www.thinkmind.org/index.php?view=article&articleid=valid_2014_2_50_40074">DOI</a></span> 
 	<!-- &middot; <A HREF="files/uploadLaterMessage.html">PDF</A> -->
     </LI> <hr>
 
-    <LI>Tukaram Muske. <B>Improving Review of Clustered-Code Analysis Warnings.</B>, <i>International Conference on Software Maintenance and Evolution</i> (<B>ICSME 2014</B>), pp. 569-572. IEEE, 2014. <br>
+    <LI>Tukaram Muske. <B>Improving Review of Clustered-Code Analysis Warnings.</B> <i>International Conference on Software Maintenance and Evolution</i> (<B>ICSME 2014</B>), pp. 569-572. IEEE, 2014. <br>
     <span class="refs-link"><a href="https://ieeexplore.ieee.org/document/6976141">DOI</a></span> 
    <!-- &middot; <A HREF="files/uploadLaterMessage.html">PDF</A> -->
     </LI> <hr>
 
-	<LI>Tukaram Muske. <B>Supporting Reviewing of Warnings in Presence of Shared Variables: Need and Effectiveness.</B>, <i>25th IEEE International Symposium on Software Reliability Engineering Workshops</i> (<B>ISSRE Workshops 2014</B>), pp. 104-107. IEEE, 2014. <br>
+	<LI>Tukaram Muske. <B>Supporting Reviewing of Warnings in Presence of Shared Variables: Need and Effectiveness.</B> <i>25th IEEE International Symposium on Software Reliability Engineering Workshops</i> (<B>ISSRE Workshops 2014</B>) pp. 104-107. IEEE, 2014. <br>
     <span class="refs-link"><a href="https://www.computer.org/csdl/proceedings-article/issrew/2014/7377a104/12OmNCbCrTP">DOI</a></span> 
    <!-- &middot; <A HREF="files/uploadLaterMessage.html">PDF</A> -->
     </LI> <hr>
 
-    <LI>Tukaram Muske, Ankit Baid, and Tushar Sanas. <B>Review Efforts Reduction by Partitioning of Static Analysis Warnings.</B>, <i>13th IEEE International Working Conference on Source Code Analysis and Manipulation</i> (<B>SCAM 2013</B>), pp. 106-115. IEEE, 2013. <br>
+    <LI>Tukaram Muske, Ankit Baid, and Tushar Sanas. <B>Review Efforts Reduction by Partitioning of Static Analysis Warnings.</B> <i>13th IEEE International Working Conference on Source Code Analysis and Manipulation</i> (<B>SCAM 2013</B>) pp. 106-115. IEEE, 2013. <br>
     <span class="refs-link"><a href="https://ieeexplore.ieee.org/document/6648191">DOI</a></span> 
    <!-- &middot; <A HREF="files/uploadLaterMessage.html">PDF</A> -->
     </LI> <hr>
 
-    <LI>Tukaram Muske. <B>Improving Manual Analysis of Automated Code Inspection Results: Need and Effectiveness.</B>, <i>24th IEEE International Symposium on Software Reliability Engineering Workshops</i> (<B>ISSRE Workshops 2013</B>), pp. 53. IEEE, 2013. <br>
+    <LI>Tukaram Muske. <B>Improving Manual Analysis of Automated Code Inspection Results: Need and Effectiveness.</B> <i>24th IEEE International Symposium on Software Reliability Engineering Workshops</i> (<B>ISSRE Workshops 2013</B>) pp. 53. IEEE, 2013. <br>
     <span class="refs-link"><a href="https://ieeexplore.ieee.org/document/6688867">DOI</a></span> 
    <!-- &middot; <A HREF="files/uploadLaterMessage.html">PDF</A> -->
     </LI> <hr>
 
 	
-    <LI>Tukaram Muske,  <A HREF="https://scholar.google.com/citations?user=sSJvdQUAAAAJ&hl=en">Advaita Datar</A>, Mayur Khanzode, and <A HREF="https://scholar.google.com/citations?user=nGl9MI0AAAAJ&hl=en">Kumar Madhukar</A>. <B>Efficient Elimination of False Positives using Bounded Model Checking.</B>, <i>International Conference on Advances in System Testing and Validation Lifecycle </i> (<B>VALID 2013</B>), pp. 13-20. IARIA XPS Press, 2013. <br>
+    <LI>Tukaram Muske,  <A HREF="https://scholar.google.com/citations?user=sSJvdQUAAAAJ&hl=en">Advaita Datar</A>, Mayur Khanzode, and <A HREF="https://scholar.google.com/citations?user=nGl9MI0AAAAJ&hl=en">Kumar Madhukar</A>. <B>Efficient Elimination of False Positives using Bounded Model Checking.</B> <i>International Conference on Advances in System Testing and Validation Lifecycle </i> (<B>VALID 2013</B>), pp. 13-20. IARIA XPS Press, 2013. <br>
     <span class="refs-link"><a href="https://www.thinkmind.org/index.php?view=article&articleid=valid_2013_1_30_40080">DOI</a></span> 
    <!-- &middot; <A HREF="files/uploadLaterMessage.html">PDF</A> -->
     </LI> <hr>
 
-	 <LI><A HREF="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:986">Padmanabhan Krishnan</A>, R. Venkatesh, <A HREF="https://in.linkedin.com/in/prasad-bokil-32a58566">Prasad Bokil</A>, Tukaram Muske, and <A HREF="https://in.linkedin.com/in/pvijaysuman"> P. Vijay Suman</A>. <B>Effectiveness of Random Testing of Embedded Systems.</B>, <i>	45th Hawaii International International Conference on Systems Science </i> (<B>HICSS 2012</B>), pp. 5556-5563. IEEE, 2012. <br>
+	 <LI><A HREF="https://labs.oracle.com/pls/apex/f?p=labs:bio:0:986">Padmanabhan Krishnan</A>, R. Venkatesh, <A HREF="https://in.linkedin.com/in/prasad-bokil-32a58566">Prasad Bokil</A>, Tukaram Muske, and <A HREF="https://in.linkedin.com/in/pvijaysuman"> P. Vijay Suman</A>. <B>Effectiveness of Random Testing of Embedded Systems.</B> <i>	45th Hawaii International International Conference on Systems Science </i> (<B>HICSS 2012</B>), pp. 5556-5563. IEEE, 2012. <br>
     <span class="refs-link"><a href="https://ieeexplore.ieee.org/document/6149569">DOI</a></span> 
    <!-- &middot; <A HREF="files/uploadLaterMessage.html">PDF</A> -->
     </LI> <hr>
 
-	<LI>	<A HREF="https://in.linkedin.com/in/pvijaysuman"> P. Vijay Suman</A>, Tukaram Muske, <A HREF="https://in.linkedin.com/in/prasad-bokil-32a58566">Prasad Bokil</A>, <A HREF="https://scholar.google.com/citations?user=tnrKYVkAAAAJ&hl=en">Ulka Shrotri</A>, and R. Venkatesh. <B>Masking Boundary Value Coverage: Effectiveness and Efficiency.</B>, <i>	5th International Academic and Industrial Conference on Testing - Practice and Research Techniques</i> (<B>TAIC PART 2010</B>), pp. 8-22. Springer, 2010. <br>
+	<LI>	<A HREF="https://in.linkedin.com/in/pvijaysuman"> P. Vijay Suman</A>, Tukaram Muske, <A HREF="https://in.linkedin.com/in/prasad-bokil-32a58566">Prasad Bokil</A>, <A HREF="https://scholar.google.com/citations?user=tnrKYVkAAAAJ&hl=en">Ulka Shrotri</A>, and R. Venkatesh. <B>Masking Boundary Value Coverage: Effectiveness and Efficiency.</B> <i>	5th International Academic and Industrial Conference on Testing - Practice and Research Techniques</i> (<B>TAIC PART 2010</B>), pp. 8-22. Springer, 2010. <br>
     <span class="refs-link"><a href="https://link.springer.com/chapter/10.1007/978-3-642-15585-7_4">DOI</a></span> 
    &middot; <A HREF="files/TAICPART2010.pdf">PDF</A>
     </LI> <hr>
 
 
-		<LI>		Nishigandha Hirve, Tukaram Muske, <A HREF="https://scholar.google.com/citations?user=tnrKYVkAAAAJ&hl=en">Ulka Shrotri</A>, and R. Venkatesh. <B>Feature based Structuring and Composing of SDLC Artifacts.</B>, <i>	22nd International Conference on Software Engineering & Knowledge Engineering</i> (<B>SEKE 2010</B>), pp. 583-586. 2010. <br>
+		<LI>		Nishigandha Hirve, Tukaram Muske, <A HREF="https://scholar.google.com/citations?user=tnrKYVkAAAAJ&hl=en">Ulka Shrotri</A>, and R. Venkatesh. <B>Feature based Structuring and Composing of SDLC Artifacts.</B> <i>	22nd International Conference on Software Engineering & Knowledge Engineering</i> (<B>SEKE 2010</B>), pp. 583-586. 2010. <br>
    <A HREF="files/SEKE2010.pdf">PDF</A>
     </LI> <hr>
 
 </ol>
+
+<a id="sec:patents">    
+<hr><h3>Patents: </h3>
     
-    
+<ol>
+	<LI> Tukaram B Muske. <B>Method and system for classification and ranking of delta alarms.</B>  <i>  Recently filed </i>   in India (May 2020).  </LI> <hr> 
+
+	<LI> Tukaram B Muske. <B>Method and system for identification and elimination of false positives from delta alarms.</B>  <i>  Recently filed </i> in India (May 2020).  </LI> <hr> 
+
+	<LI> Tukaram B Muske and Rohith Talluri. <B>Method and system for non-impacting control dependencies-based repositioning of static analysis alarms.</B>  <i> Recently filed </i> in India, USA, and EPO (Nov 2019).  </LI> <hr> 
+
+	<LI> Tukaram B Muske and Rohith Talluri. <B>Method and system for repositioning of a plurality of static analysis alarms.</B>  <b> <span style="color:green;">Granted in  <A HREF="https://patents.google.com/patent/US20190391903A1/en" style="color:green">USA (2020)</A> and <A HREF="https://patents.google.com/patent/JP2020004363A/en" style="color:green">Japan (2020)</A></b></span>; under examination in <A HREF="https://patents.google.com/patent/EP3588272A1/">EPO</A> and India.  </LI> <hr> 
+
+	<LI> Tukaram B Muske. <B>System and method for cause point analysis for effective handling of static analysis alarms.</B>  <b> <span style="color:green;">Granted in  <A HREF="https://patents.google.com/patent/US20180046564A1/" style="color:green">USA (2020)</A></b></span>; under examination in <A HREF="https://patents.google.com/patent/JP2018026135A/">Japan</A>, <A HREF="https://patents.google.com/patent/EP3285171A1/">EPO</A>, and India.  </LI> <hr> 
+
+	<LI> Tukaram B Muske. <B>Static analysis based efficient elimination of false positives.</B>  <b> <span style="color:green;">Granted in  <A HREF="https://patents.google.com/patent/US10002064B2/" style="color:green">USA (2018)</A> and <A HREF="https://patents.google.com/patent/JP6320475B2/" style="color:green">Japan (2018)</A></b></span>; under examination in <A HREF="https://patents.google.com/patent/EP3144816A1/">EPO</A> and India.  </LI> <hr> 
+
+
+	<LI> Tukaram B Muske. <B>Reviewing warnings generated in clustered-code analysis.</B>  <b> <span style="color:green;">Granted in  <A HREF="https://patents.google.com/patent/US10025699B2/" style="color:green">USA (2018)</A> and <A HREF="https://patents.google.com/patent/JP6116639B2/en" style="color:green">Japan (2017)</A></b></span>; under examination in India.  </LI> <hr> 
+
+	<LI> Tukaram B Muske. <B>System and method to facilitate a user interface enabled review of static analysis warnings.</B>  <b> <span style="color:green;">Granted in  <A HREF="https://patents.google.com/patent/US9201765B2" style="color:green">USA (2015)</A> and <A HREF="https://patents.google.com/patent/JP6117760B2/" style="color:green">Japan (2017)</A></b></span>; under examination in <A HREF="https://patents.google.com/patent/IN2013MU03461A/">India</A>.  </LI> <hr> 
+
+	<LI> Tukaram B Muske, Advaita Datar, Mayur Khanzode, R. Venkatesh. <B>System and method for facilitating a model checker based elimination of false positives.</B>  Under examination in India.  </LI> <hr> 
+
+	<LI> Tukaram B Muske, Advaita Datar, Amey Anand Zare. <B>Method and system for verifying sleep wakeup protocol by computing state transition paths.</B>  <b> <span style="color:green;">Granted in  <A HREF="https://patents.google.com/patent/US9141511B2/" style="color:green">USA (2015)</A> and <A HREF="https://patents.google.com/patent/JP5955900B2/en" style="color:green">Japan (2016)</A></b></span>; under examination in <A HREF="https://patents.google.com/patent/IN2013MU02701A/en">India</A>.  </LI> <hr>  
+
+	<LI> Tukaram B Muske, Ankit Baid, Tushar Rohidas Sanas. <B>A system and method to provide grouping of warnings generated during static analysis.</B>  <b> <span style="color:green;">Granted in  <A HREF="https://patents.google.com/patent/US20140244645A1/" style="color:green">USA (2016)</A> and <A HREF="https://patents.google.com/patent/JP5901668B2/" style="color:green">Japan (2016)</A></b></span>; under examination in India.  </LI> <hr> 
+
+	<LI> Vijay Suman Pasupuleti, Tukaram B Muske, Prasad Bokil, Ulka Shrotri, Venkatesh Ramanathan, Priyanka Darke. <B>A system and method for automatic test data generation for relational testing.</B>  <b> <span style="color:green;">Granted in </span>  <A HREF="https://patents.google.com/patent/US8589736B2/en" style="color:green">USA (2013)</A> </b>. </LI> <hr> 
+</ol>	
+
 </div>
 </body>
 </html>
+

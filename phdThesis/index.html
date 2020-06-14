@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  -->
 
 <head>
-    <link href="http://gmpg.org/xfn/11" rel="profile">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
@@ -13,24 +12,24 @@
     <!--       Tukaram Muske &middot; Welcome to my website! -->
     <title>
 
-        Contact &middot; Tukaram Muske
+        Tukaram Muske
 
     </title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/public/css/poole.css">
-    <link rel="stylesheet" href="/public/css/syntax.css">
-    <link rel="stylesheet" href="/public/css/hyde.css">
+    
+    <link rel="stylesheet" href="../public/css/poole.css">
+    <link rel="stylesheet" href="../public/css/syntax.css">
+    <link rel="stylesheet" href="../public/css/hyde.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
     <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-    <link rel="shortcut icon" href="/public/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../public/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="../public/favicon.ico">
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
-
 
 <body class="theme-base-0d">
 
@@ -40,33 +39,34 @@
         <div class="sidebar-about">
             <h1>
                 <!-- 		<img src="/images/bogdan2014bw.jpg" alt="Tukaram Muske" class="secondary-photo media-circle photo" width="150px" /> -->
-                <img class="displayed" src="/images/tuka.jpg" alt="Tukaram Muske" width="200px"/>
+                <img class="displayed" src="../images/tuka.jpg" width="120px"/>
                 Tukaram Muske
             </h1>
             <p class="lead">
-                Scientist at TRDDC
+                Scientist at TRDDC, TCS
             </p>
+			<hr>
         </div>
 
-       <nav class="sidebar-nav">
-            <a class="sidebar-nav-item active" href="/index.html#sec:home">Home</a>
-            <a class="sidebar-nav-item" href="/index.html#sec:publications">Publications</a>
-            <a class="sidebar-nav-item" href="/index.html#sec:patents">Patents</a>
-            <a class="sidebar-nav-item" href="/phdThesis/">PhD Thesis</a>
-            <a class="sidebar-nav-item" href="/contact/">Contact</a>
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item active" href="../index.html#sec:profile">Home</a>
+            <a class="sidebar-nav-item" href="../index.html#sec:publications">Publications</a>
+            <a class="sidebar-nav-item" href="../index.html#sec:patents">Patents</a>
+            <a class="sidebar-nav-item" href="../phdThesis/index.html">PhD Thesis</a>
+            <a class="sidebar-nav-item" href="../contact/">Contact</a>
 
         </nav>
-        <br><br><br>
-        <p>&copy; 2020. All rights reserved.</p>
+        <br>
+        <p style="font-size:70%;">&copy;2020. All rights reserved.</p>
     </div>
 </div>
 
 
 <div class="content container">
     <div class="page">
-        <h3>PhD Thesis</h3>
+        <h4>PhD Thesis</h4>
         <div class="highlight">
-	<p align="justify" style="font-family:verdana;font-size:13px">		
+	<p>		
 	Since 2016, while working as a researcher at TRDDC, one of the research-and-innovation labs of Tata Consultancy Services Ltd, 
 		located in Pune, India, 
 		I have also been pursuing my PhD degree under supervision of <a href="https://www.win.tue.nl/~aserebre/">Dr. Alexander Serebrenik </a> 
@@ -74,20 +74,20 @@
 		
 	During this period, I have gained research experience and expertise in static analysis, software engineering, applications of model checking, and verification and validation of embedded systems.
 		</p>
-		<p align="justify" style="font-family:verdana;font-size:13px">	Thesis title: Postprocessing of static analysis alarms </p>
-		<p align="justify" style="font-family:verdana;font-size:13px">	Thesis to be defended on: July 7, 2020.  </p>
+		<p>	Thesis title: Postprocessing of static analysis alarms </p>
+		<p>	Thesis to be defended on: July 7, 2020.  </p>
 		
-		<a style="font-family:verdana;font-size:13px" href="/files/phdThesis.pdf">The PhD thesis can be found here.</a>
+		<a href="/files/phdThesis.pdf">The PhD thesis can be found here.</a>
 	</div>
 	 
 	<div id="abstract">
 	 <h4>Abstract (Short) </h4>
         <div class="highlight">
-	<p align="justify" style="font-family:verdana;font-size:13px">	
+	<p>
 	Software systems are playing crucial role in our life. Ensuring that these software systems are free of defects is of utmost importance. Despite the common use of software testing in detecting defects, it can be used only to show the presence of bugs, but never to show their absence. This well-recognized limitation of testing led to emergence of alternative automated program analysis technique called static analysis. Considering the usefulness of static analysis in detecting defects, a wide range of static analysis tools have been developed. These tools, however, due to several unavoidable reasons generate a large number of alarms that are warning messages to the user. A high percentage of alarms are falsely generated and identifying them requires manual inspection. 
 	</p>	
 
-	<p align="justify" style="font-family:verdana;font-size:13px">	
+	<p>
  	In this thesis, we addressed the problem of falsely generated alarms by improving postprocessing of alarms, i.e., processing the alarms after they are generated. The postprocessing is used to reduce their number or the effort required to manually inspect them. We first reviewed the techniques that have been proposed for postprocessing of alarms and identified the areas of improvement. We then designed a series of postprocessing techniques and evaluated them on multiple industrial and open source systems. Our techniques improved the approaches used to (1) group similar alarms, (2) eliminate false alarms automatically, (3) suppress alarms generated on evolutionary code, and (4) inspect alarms generated on partitioned-code. Our evaluation results show that the proposed techniques reduce the number of alarms by up to 36% and the time required for automated false positives elimination by up to 60%.
 	</p>
 	</div>

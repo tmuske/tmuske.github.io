@@ -31,17 +31,14 @@
  * Update the foundational and global aspects of the page.
  */
 
-html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: normal;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 18px;
+    font-size: normal;
   }
 }
 
@@ -55,8 +52,8 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
+  padding: .5rem1 1rem1;
+1  color: rgba(255,255,255,.5);
   background-color: #202020;
 }
 @media (min-width: 48em) {
@@ -65,7 +62,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 11rem;
     text-align: left;
   }
 }
@@ -79,8 +76,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 1.5rem;
 }
 
 /* Sidebar nav */
@@ -89,7 +85,7 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  line-height: 1.5;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -122,21 +118,21 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top:    1rem;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin-left: 20rem;
+    max-width: 100vw;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    max-width: 100vw;
+    margin-left: 12rem;
     margin-right: 4rem;
   }
 }
@@ -247,4 +243,14 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+li {
+	margin: 0 0 10px 0
+}
+p,.container.a, li {
+  font-family: "verdana", arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  font-size:medium;
+  text-align:justify;
 }

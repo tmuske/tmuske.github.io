@@ -48,9 +48,9 @@ body {
 }
 
 html {
-  font-family: verdana, Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+  font-size:medium;
+  line-height: 1.2;
 }
 @media (min-width: 38em) {
   html {
@@ -59,7 +59,6 @@ html {
 }
 
 body {
-  color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -95,7 +94,7 @@ h2 {
   font-size: 1.5rem;
 }
 h3 {
-  margin-top: 1.5rem;
+  margin-top: .5rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -132,7 +131,7 @@ dd {
 /* Misc */
 hr {
   position: relative;
-  margin: 1.5rem 0;
+  margin: .5rem 0;
   border: 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
@@ -261,8 +260,9 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
+  text-align: left;
 }
 
 

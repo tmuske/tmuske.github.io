@@ -246,9 +246,15 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
+.talksLi {
+  margin: 0 0 5px 0
+}
+
+
 li {
 	margin: 0 0 10px 0
 }
+
 p,.container.a, li {
   font-family: "verdana", arial, sans-serif;
   font-family: "Times New Roman", Times, serif;
